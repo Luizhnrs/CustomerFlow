@@ -1,4 +1,5 @@
 ﻿using CustomerFlow.Model;
+using CustomerFlow.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CustomerFlow.Controller
@@ -14,10 +15,12 @@ namespace CustomerFlow.Controller
         {
             _customerRepository = customerRepository ?? throw new ArgumentNullException(nameof(customerRepository));
         }
-
-        public IActionResult Add()
+        [HttpPost]
+        public IActionResult Add(CustomerViewModel customerView)
         {
-            return View();
+            var customer = new Customer(customerView.Name, customerView.Age, null);
+            _customerRepository.Add(customer);
+            return Ok();
         }
     }
 }
