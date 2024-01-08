@@ -13,7 +13,7 @@ namespace CustomerFlow.Infra
 
         public List<Customer> get()
         {
-            throw new NotImplementedException();
+            return _context.Customers.ToList();
         }
     }
 
