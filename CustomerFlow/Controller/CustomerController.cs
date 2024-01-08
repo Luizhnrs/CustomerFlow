@@ -22,5 +22,11 @@ namespace CustomerFlow.Controller
             _customerRepository.Add(customer);
             return Ok();
         }
+
+        public IActionResult Get()
+        {
+            var customer = _customerRepository.get();
+            return Ok(customer);
+        }
     }
 }
