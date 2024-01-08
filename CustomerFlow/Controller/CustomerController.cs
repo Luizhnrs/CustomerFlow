@@ -12,10 +12,10 @@ namespace CustomerFlow.Controller
 
         public CustomerController(ICustomerRepository customerRepository)
         {
-            _customerRepository = customerRepository;
+            _customerRepository = customerRepository ?? throw new ArgumentNullException(nameof(customerRepository));
         }
 
-        public IActionResult Index()
+        public IActionResult Add()
         {
             return View();
         }
