@@ -1,6 +1,8 @@
 ﻿using CustomerFlow.Model;
 using CustomerFlow.ViewModel;
 using Microsoft.AspNetCore.Mvc;
+using System.Runtime.InteropServices.Marshalling;
+
 
 namespace CustomerFlow.Controller
 {
@@ -19,6 +21,8 @@ namespace CustomerFlow.Controller
         [HttpPost]
         public IActionResult Add([FromForm] CustomerViewModel customerView)
         {
+            var filepath = Path.Combine("Storage", customerView.Photo.FileName);
+            using Stream filestream = new FileStream(filepath, FileMode.Create);
             var customer = new Customer(customerView.Name, customerView.Age, null);
             _customerRepository.Add(customer);
             return Ok();
