@@ -10,9 +10,9 @@ namespace CustomerFlow.Infra
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
             => optionsBuilder.UseNpgsql(
-                "Server:localhost;"+
+                "Server=PostgreSQL 16;"+
                 "Port=8080; Database=customer;"+
-                "User Id= luiz;"+
-                "Password=11072001;");
+                "User Id=postgres;" +
+                "Password=;");
     }
 }
