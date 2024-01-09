@@ -15,6 +15,7 @@ namespace CustomerFlow.Controller
         {
             _customerRepository = customerRepository ?? throw new ArgumentNullException(nameof(customerRepository));
         }
+
         [HttpPost]
         public IActionResult Add(CustomerViewModel customerView)
         {
@@ -25,7 +26,7 @@ namespace CustomerFlow.Controller
         [HttpGet]
         public IActionResult Get()
         {
-            var customer = _customerRepository.get();
+            var customer = _customerRepository.Get();
             return Ok(customer);
         }
     }
