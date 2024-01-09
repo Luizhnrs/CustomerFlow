@@ -17,7 +17,7 @@ namespace CustomerFlow.Controller
         }
 
         [HttpPost]
-        public IActionResult Add(CustomerViewModel customerView)
+        public IActionResult Add([FromForm] CustomerViewModel customerView)
         {
             var customer = new Customer(customerView.Name, customerView.Age, null);
             _customerRepository.Add(customer);
