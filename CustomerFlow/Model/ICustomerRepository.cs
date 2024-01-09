@@ -4,6 +4,6 @@
     {
         void Add(Customer customer);
 
-       List<Customer> get();
+       List<Customer> Get();
     }
 }

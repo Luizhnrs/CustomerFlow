@@ -1,5 +1,7 @@
 using CustomerFlow.Infra;
 using CustomerFlow.Model;
+using CustomerFlow.Controller;
+using CustomerFlow.ViewModel;
 
 var builder = WebApplication.CreateBuilder(args);
 
