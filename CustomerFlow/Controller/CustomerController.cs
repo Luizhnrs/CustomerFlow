@@ -27,7 +27,7 @@ namespace CustomerFlow.Controller
         public IActionResult Get()
         {
             var customer = _customerRepository.Get();
-            return Ok(customer);
+            return Ok (customer);
         }
     }
 }
