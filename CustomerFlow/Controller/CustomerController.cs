@@ -22,7 +22,7 @@ namespace CustomerFlow.Controller
             _customerRepository.Add(customer);
             return Ok();
         }
-
+        [HttpGet]
         public IActionResult Get()
         {
             var customer = _customerRepository.get();
