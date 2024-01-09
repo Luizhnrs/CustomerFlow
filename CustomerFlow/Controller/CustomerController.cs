@@ -22,7 +22,10 @@ namespace CustomerFlow.Controller
         public IActionResult Add([FromForm] CustomerViewModel customerView)
         {
             var filepath = Path.Combine("Storage", customerView.Photo.FileName);
+
             using Stream filestream = new FileStream(filepath, FileMode.Create);
+            customerView.Photo.CopyTo(filestream);
+
             var customer = new Customer(customerView.Name, customerView.Age, null);
             _customerRepository.Add(customer);
             return Ok();
