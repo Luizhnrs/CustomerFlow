@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vlypcBQcC8RG3tJfKTthLjVthX8kI06rMdopw0yi5HhwUkKireuxHKgvZEwpF/jzcJlqnmqzV0kgtQN5EBPDJQ==",
+  "dgSpecHash": "CuwO9e57xho1X/RrtY+uESxtGrtB3FZWnglm8vGi2b8fXUnQs6+flm3w6xLv2WLiYtUfjBl/gj2EyX8YWbzxAA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Luiz Henrique\\Documents\\Projects\\C-Sharp\\CustomerFlow\\CustomerFlow\\CustomerFlow.csproj",
   "expectedPackageFiles": [
@@ -27,6 +27,9 @@
     "C:\\Users\\Luiz Henrique\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Luiz Henrique\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
     "C:\\Users\\Luiz Henrique\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\Luiz Henrique\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.1.2\\microsoft.identitymodel.abstractions.7.1.2.nupkg.sha512",
+    "C:\\Users\\Luiz Henrique\\.nuget\\packages\\microsoft.identitymodel.logging\\7.1.2\\microsoft.identitymodel.logging.7.1.2.nupkg.sha512",
+    "C:\\Users\\Luiz Henrique\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.1.2\\microsoft.identitymodel.tokens.7.1.2.nupkg.sha512",
     "C:\\Users\\Luiz Henrique\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Luiz Henrique\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\Luiz Henrique\\.nuget\\packages\\npgsql\\8.0.0\\npgsql.8.0.0.nupkg.sha512",
