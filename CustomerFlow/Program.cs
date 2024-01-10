@@ -10,7 +10,7 @@ using System.Text;
 using CustomerFlow;
 using CustomerFlow.Infra;
 using CustomerFlow.Model;
-using CustomerFlow.Controller;
+using CustomerFlow.Controllers;
 using CustomerFlow.ViewModel;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -22,7 +22,6 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
-    c.OperationFilter<SwaggerDefaultValues>();
 
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
