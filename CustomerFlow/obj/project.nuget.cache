@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CuwO9e57xho1X/RrtY+uESxtGrtB3FZWnglm8vGi2b8fXUnQs6+flm3w6xLv2WLiYtUfjBl/gj2EyX8YWbzxAA==",
+  "dgSpecHash": "gJGXrwuiOXF/7f7MVv+FWA2NL6UJWr7KV5qfn6jcUBAk6go7MdOyQ3xjUps9DdWIHqXpBS5m2ghu4SSsmlNEbQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Luiz Henrique\\Documents\\Projects\\C-Sharp\\CustomerFlow\\CustomerFlow\\CustomerFlow.csproj",
   "expectedPackageFiles": [
@@ -28,6 +28,7 @@
     "C:\\Users\\Luiz Henrique\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
     "C:\\Users\\Luiz Henrique\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\Luiz Henrique\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.1.2\\microsoft.identitymodel.abstractions.7.1.2.nupkg.sha512",
+    "C:\\Users\\Luiz Henrique\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.1.2\\microsoft.identitymodel.jsonwebtokens.7.1.2.nupkg.sha512",
     "C:\\Users\\Luiz Henrique\\.nuget\\packages\\microsoft.identitymodel.logging\\7.1.2\\microsoft.identitymodel.logging.7.1.2.nupkg.sha512",
     "C:\\Users\\Luiz Henrique\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.1.2\\microsoft.identitymodel.tokens.7.1.2.nupkg.sha512",
     "C:\\Users\\Luiz Henrique\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
@@ -46,6 +47,7 @@
     "C:\\Users\\Luiz Henrique\\.nuget\\packages\\system.composition.hosting\\6.0.0\\system.composition.hosting.6.0.0.nupkg.sha512",
     "C:\\Users\\Luiz Henrique\\.nuget\\packages\\system.composition.runtime\\6.0.0\\system.composition.runtime.6.0.0.nupkg.sha512",
     "C:\\Users\\Luiz Henrique\\.nuget\\packages\\system.composition.typedparts\\6.0.0\\system.composition.typedparts.6.0.0.nupkg.sha512",
+    "C:\\Users\\Luiz Henrique\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.1.2\\system.identitymodel.tokens.jwt.7.1.2.nupkg.sha512",
     "C:\\Users\\Luiz Henrique\\.nuget\\packages\\system.io.pipelines\\6.0.3\\system.io.pipelines.6.0.3.nupkg.sha512",
     "C:\\Users\\Luiz Henrique\\.nuget\\packages\\system.reflection.metadata\\6.0.1\\system.reflection.metadata.6.0.1.nupkg.sha512",
     "C:\\Users\\Luiz Henrique\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
